@@ -2,6 +2,13 @@ h1, h2, p{
     text-align: center;
 }
 
+body {
+    background-image:url(https://img.freepik.com/foto-gratis/vista-cercana-granos-cafe-tostados-frescos-oscuros-sobre-fondo-granos-cafe_141793-27283.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .menu {
     width: 80%;
     background-color: burlywood;
@@ -10,10 +17,16 @@ h1, h2, p{
     
 }
 
-body {
-    background-image:url(https://img.freepik.com/foto-gratis/vista-cercana-granos-cafe-tostados-frescos-oscuros-sobre-fondo-granos-cafe_141793-27283.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color:#FFFFFF
+.item p {
+    display: inline-block;
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+  
+.price {
+    text-align: right;
+    width: 24%;
 }
